@@ -11,7 +11,7 @@ client.on("message", message =>{
   }
  });
 
-client.on('ready' =>{
+client.on('ready', () =>{
   client.user.setStatus("dnd");
   client.user.setGame('Un bug dans Cardinal est en cours de réparation');
  });
