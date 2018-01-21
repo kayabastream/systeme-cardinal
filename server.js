@@ -1,9 +1,9 @@
 const discord = require('discord.js');
 
 const client = new discord.Client();
+const dt = process.env.DISCORD_TOKEN;
 
-
-client.login(process.env.token).then(ok => console.log('ok'));
+client.login(dt).then(ok => console.log('ok'));
 
 client.on("message", message =>{
   if(message.content.startsWith('sc:')){
