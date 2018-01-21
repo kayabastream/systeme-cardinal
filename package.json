@@ -1,0 +1,24 @@
+{
+  "name": "systemecardinal",
+  "version": "14.0.6",
+  "description": "bot discord",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "null"
+  ],
+  "author": "moi",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "enmap": "^0.4.2",
+    "enmap-level": "^1.0.0",
+    "got": "^8.0.3"
+  }
+}
